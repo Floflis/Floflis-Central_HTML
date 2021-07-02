@@ -1,0 +1,17 @@
+<div class="backgroundWrap withImage">
+    <img class="" src="background.png">
+    <div class="gradient"></div>
+  </div>
+<div class="card elevation-24" style="float:right">
+<div class="card-body">
+<center><img width="150px" style="border-radius:50%" src=""/>
+<h5 class="card-title">{user}</h5>
+<h6 id="hostname" onclick=C2('about-show'); class="card-subtitle mb-2 text-muted linkish" title="Device name">...</h6></center>
+<ul class="list-group list-group-flush">
+<li class="list-group-item"><i class="material-icons">share</i> Peers: <b title="IPFS Web"><img width="16px" src="ipfs.png"/> {peers}</b> <b title="CJDNS Network"><img width="16px" src="cjdns.png"/> {peers}</b> <b title="Yggdrasil Network"><img width="16px" src="yggdrasil.png"/> {peers}</b></li>
+<li class="list-group-item"><i class="material-icons">network_check</i> Network speed:</li>
+<li onclick=C2('about-show'); class="list-group-item nav-link"><img width="20px" src="icon.png"/> Floflis <tag id="version"></tag> build <b id="build">{build}</b> <span id="osarch">...</span></li>
+</ul>
+<div class="card-footer text-muted" style="color:#24b92a!important"><center><i class="material-icons">check_circle</i> up-to-date</center></div>
+</div>
+</div>

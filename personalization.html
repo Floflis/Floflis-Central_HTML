@@ -1,0 +1,47 @@
+<ul class="nav nav-justified nav-tabs" id="justifiedTab" role="tablist">
+  <li class="nav-item">
+    <a aria-controls="lookfeel" aria-selected="true" class="nav-link active" data-toggle="tab" href="#lookfeel" id="lookfeel-tab" role="tab">Change look-and-feel</a>
+  </li>
+  <!--<li class="nav-item">
+    <a aria-controls="profile" aria-selected="false" class="nav-link" data-toggle="tab" href="#profile" id="profile-tab" role="tab">Profile</a>
+  </li>-->
+  <li class="nav-item">
+    <a aria-controls="chbackground" aria-selected="false" class="nav-link" data-toggle="tab" href="#chbackground" id="chbackground-tab" role="tab">Background</a>
+  </li>
+</ul>
+
+<div class="tab-content" id="justifiedTabContent">
+
+  <div aria-labelledby="lookfeel-tab" class="tab-pane fade show active" id="lookfeel" role="tabpanel">
+	<tag id="dark-input"><div class="custom-control custom-switch"><input onclick=C2('darktheme'); class="custom-control-input" id="customSwitch" type="checkbox"><span class="custom-control-track"></span><label class="custom-control-label" for="customSwitch">Dark theme</label></div></tag>
+  </div>
+
+  <!--<div aria-labelledby="profile-tab" class="tab-pane fade" id="profile" role="tabpanel">...</div>-->
+
+  <div aria-labelledby="chbackground-tab" class="tab-pane fade" id="chbackground" role="tabpanel">
+	<h6>Click <code><i class="material-icons">folder</i> Change</code> to use any background/image you want.</h6>
+<div class="row">
+  <div class="col-sm-6">
+    <div class="card">
+	<img width="100%" class="card-img-top" src="background.png" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">Desktop</h5>
+        <p class="card-text">The area of icons that appears after you turn on and login on your device.</p>
+        <button href="#" class="btn btn-primary"><i class="material-icons">folder</i> Change...</button>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6">
+    <div class="card">
+	<img width="100%" class="card-img-top" src="background.png" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">Lockscreen</h5>
+        <p class="card-text">This area appears when you lock your device or it is naturally locked after a inactive period.</p>
+        <button href="#" class="btn btn-primary"><i class="material-icons">folder</i> Change...</button>
+      </div>
+    </div>
+  </div>
+</div>
+<h6>or <button href="#" class="btn btn-primary"><i class="material-icons">folder</i> Change both at once...</button></h6>
+  </div>
+</div>
