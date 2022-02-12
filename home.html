@@ -16,19 +16,6 @@
 <h5 class="card-title"><tag id="showusername"></tag></h5>
 <h6 id="hostname" onclick=C2('about-show'); class="card-subtitle mb-2 text-muted linkish" title="Device name">...</h6></center>
 
-<style>
-@keyframes djFCwZ{0%{transform:rotate3d(0,1,0,0);}100%{transform:rotate3d(0,1,0,360deg);}}
-
-.balancecount {
-  font-size: 60px;
-  /*display: block;*/
-  font-weight: bold;
-  color: #000;
-}
-
-.odometer{animation-duration:3s}
-</style>
-
 <div title="FLOF tokens">
 <img class="align-left" src="file:///1/img/token.png" alt="FLOF tokens" style="animation: 5s cubic-bezier(0.83, 0, 0.17, 1) 0s infinite normal none running djFCwZ;padding: 2rem 0px 0px;filter: drop-shadow(rgba(0, 0, 0, 0.15) 0px 2px 4px);" width="48px">
 <br/><h3 id="flofbalancetotal"></h3>
@@ -59,6 +46,6 @@ SOON
 SOON -->
 <li onclick=C2('about-show'); class="list-group-item nav-link"><img width="20px" src="/1/img/logo.png"/> Floflis <tag id="version"></tag> build <b id="build">{build}</b> <span id="osarch">...</span></li>
 </ul>
-<div class="card-footer text-muted" style="color:#24b92a!important"><center><i class="material-icons">check_circle</i> up-to-date</center></div>
+<div onclick=C2('about-show'); class="card-footer text-muted linkish" style="color:#24b92a!important"><center><i class="material-icons">check_circle</i> up-to-date</center></div>
 </div>
 </div>
